@@ -1,19 +1,19 @@
 # Contrastive-Neural-Korean-Text-Generation
 
 ## Setups
-> **Warning** <br>
+> **Note** <br>
 > Empty
 
 ## Warmup Stage
-> **Warning** <br>
+> **Note** <br>
 > Empty
 
 ## Training
-> **Warning** <br>
+> **Note** <br>
 > Empty
 
 ## Inference
-> **Warning** <br>
+> **Note** <br>
 > Empty
 
 ## Summarization Performance (F1-score)
