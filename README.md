@@ -43,3 +43,6 @@ After restoring the model's tokenized output to the original text, Rouge perform
 | T5-small | 77M | - | - | - |
 |  |  |  |  |  |
 | CoNKT-T5-small | 77M | - | - | - |
+
+- [KoBART](https://github.com/SKT-AI/KoBART)
+- [T5-small](https://github.com/paust-team/pko-t5)
