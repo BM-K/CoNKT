@@ -17,11 +17,13 @@
 > **Note** <br>
 > Empty
 
-## Summarization Performance (F1-score)
-- (-) Dataset
-    - Training: -
-    - Validation: -
-    - Test: -
+## News Summarization Performance (F1-score)
+After restoring the model's tokenized output to the original text, Rouge performance was evaluated by comparing it to the reference and hypothesis tokenized using [mecab](https://konlpy.org/ko/v0.4.0/).
+
+- Dacon 한국어 문서 생성요약 AI 경진대회 [Dataset](https://dacon.io/competitions/official/235673/overview/description)
+    - Training: 29,432
+    - Validation: 7,358
+    - Test: 9,182
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
@@ -30,10 +32,10 @@
 |  |  |  |  |  |
 | CoNKT-T5-small | 77M | - | - | - |
 
-- (-) Dataset
-    - Training: -
-    - Validation: -
-    - Test: -
+- AI-Hub 문서요약 텍스트 [Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
+    - Training: 245,626
+    - Validation: 20,296
+    - Test: 9,931
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
