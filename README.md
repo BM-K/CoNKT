@@ -27,11 +27,11 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
-| T5-small | 77M | 51.55 | 33.26 | 45.02 |
-| KoBART | 124M | 53.89 | 34.54 | 46.05 |
+| T5-small | 77M | - | - | - |
+| KoBART | 124M | - | - | - |
 |  |  |  |  |  |
-| CoNKT-T5-small | 77M | 54.08 | 34.42 | 45.54 |
-| CoNKT-KoBART | 124M | 55.66 | 36.26 | 47.4 |
+| CoNKT-T5-small | 77M | - | - | - |
+| CoNKT-KoBART | 124M | - | - | - |
 
 - AI-Hub 문서요약 텍스트 [Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
     - Training: 245,626
