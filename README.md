@@ -40,10 +40,10 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
-| T5-small | 77M | - | - | - |
-| KoBART | 124M | - | - | - |
+| T5-small | 77M | 53.44 | 34.03 | 45.36 |
+| KoBART | 124M | 56.04 | 36.29 | 47.15 |
 |  |  |  |  |  |
-| CoNKT-T5-small | 77M | - | - | - |
+| CoNKT-T5-small | 77M | 56.40 | 36.35 | 46.90 |
 | CoNKT-KoBART | 124M | - | - | - |
 
 - [KoBART](https://github.com/SKT-AI/KoBART)
