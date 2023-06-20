@@ -38,7 +38,7 @@ bash run_conkt_bart.sh
 ## News Summarization Performance (F1-score)
 After restoring the model's tokenized output to the original text, Rouge performance was evaluated by comparing it to the reference and hypothesis tokenized using [mecab](https://konlpy.org/ko/v0.4.0/).
 
-- Dacon, Korean Abstract Summarization AI Contest [Dataset](https://dacon.io/competitions/official/235673/overview/description)
+- Dacon, Korean Abstract Summarization AI Contest [[Dataset]](https://dacon.io/competitions/official/235673/overview/description)
     - Training: 29,432
     - Validation: 7,358
     - Test: 9,182
@@ -51,7 +51,7 @@ After restoring the model's tokenized output to the original text, Rouge perform
 | CoNKT-T5-small | 77M | 54.08 | 34.42 | 45.54 |
 | CoNKT-KoBART | 124M | 55.02 | 35.22 | 46.22 |
 
-- AI-Hub, News Summarization [Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
+- AI-Hub, News Summarization [[Dataset]](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
     - Training: 245,626
     - Validation: 20,296
     - Test: 9,931
