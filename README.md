@@ -1,21 +1,33 @@
 # Contrastive-Neural-Korean-Text-Generation
+CoNT is a strong contrastive learning framework for neural text generation which outperforms the MLE based training method on five generation tasks, including machine translation, summarization, code comment generation, data-to-text generation, commensense generation. <br>
+   - [CoNT-[NeurIPS 2022]](https://arxiv.org/abs/2205.14690) <br>
+   - [[Github]](https://github.com/Shark-NLP/CoNT) Official implementation of CoNT <br>
+<img src=https://github.com/BM-K/CoNKT/assets/55969260/c0613709-d797-48cf-9acb-77b5fcec8389>
 
 ## Setups
 [![Python](https://img.shields.io/badge/python-3.8.5-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-385/)
 [![Pytorch](https://img.shields.io/badge/pytorch-1.13.1-red?logo=pytorch)](https://pytorch.org/get-started/previous-versions/)
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers|4.21.1-pink?color=FF33CC)](https://github.com/huggingface/transformers)
 
-## Warmup Stage
-> **Note** <br>
-> Empty
+## Warm-up Stage
+A warm-up stage where the model is only supervised by `Negative Log Likelihood Loss` is recommended as it guarantees the quality of the examples from the model’s prediction.
+```
+# Warm-up Training & Inference (T5)
+bash run_warmup_t5.sh
 
-## Training
-> **Note** <br>
-> Empty
+# Warm-up Training & Inference (BART)
+bash run_warmup_bart.sh
+```
 
-## Inference
-> **Note** <br>
-> Empty
+## CoNKT Stage
+We implement its InfoNCE version by treating ground truth as positive sample and self-generated samples are also treated as negative samples.
+```
+# CoNKT Training & Inference (T5)
+bash run_conkt_t5.sh
+
+# CoNKT Training & Inference (BART)
+bash run_conkt_bart.sh
+```
 
 ## News Summarization Performance (F1-score)
 After restoring the model's tokenized output to the original text, Rouge performance was evaluated by comparing it to the reference and hypothesis tokenized using [mecab](https://konlpy.org/ko/v0.4.0/).
