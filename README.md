@@ -66,3 +66,13 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 - [KoBART](https://github.com/SKT-AI/KoBART)
 - [T5-small](https://github.com/paust-team/pko-t5)
+
+### Citing
+```
+@article{an2022cont,
+  title={CoNT: Contrastive Neural Text Generation},
+  author={An, Chenxin and Feng, Jiangtao and Lv, Kai and Kong, Lingpeng and Qiu, Xipeng and Huang, Xuanjing},
+  journal={arXiv preprint arXiv:2205.14690},
+  year={2022}
+}
+```
