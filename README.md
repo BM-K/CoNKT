@@ -20,7 +20,7 @@ bash run_warmup_bart.sh
 ```
 
 ## CoNKT Stage
-We implement its InfoNCE version by treating ground truth as positive sample and self-generated samples are also treated as negative samples.
+We implement its InfoNCE version by treating ground truth as positive sample and self-generated samples(by top-p decoding strategy) are also treated as negative samples.
 ```
 # CoNKT Training & Inference (T5)
 bash run_conkt_t5.sh
