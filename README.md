@@ -27,11 +27,11 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
-| T5-small | 77M | - | - | - |
-| KoBART | 124M | - | - | - |
+| T5-small | 77M | 51.55 | 33.26 | 45.02 |
+| KoBART | 124M | 53.75 | 34.40 | 45.94 |
 |  |  |  |  |  |
-| CoNKT-T5-small | 77M | - | - | - |
-| CoNKT-KoBART | 124M | - | - | - |
+| CoNKT-T5-small | 77M | 54.08 | 34.42 | 45.54 |
+| CoNKT-KoBART | 124M | 55.02 | 35.22 | 46.22 |
 
 - AI-Hub 문서요약 텍스트 [Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
     - Training: 245,626
@@ -44,7 +44,7 @@ After restoring the model's tokenized output to the original text, Rouge perform
 | KoBART | 124M | 56.04 | 36.29 | 47.15 |
 |  |  |  |  |  |
 | CoNKT-T5-small | 77M | 56.40 | 36.35 | 46.90 |
-| CoNKT-KoBART | 124M | - | - | - |
+| CoNKT-KoBART | 124M | 58.20 | 38.95 | 49.04 |
 
 - [KoBART](https://github.com/SKT-AI/KoBART)
 - [T5-small](https://github.com/paust-team/pko-t5)
