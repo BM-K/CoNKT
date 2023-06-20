@@ -8,7 +8,7 @@ The aforementioned repository has the following issues:
 - 1. It does not support Korean models and BART language model.
 - 2. For Korean, it is not appropriate to use beam search decoding when sampling negative samples.
 
-Therefore, we are releasing the <strong>CoNKT</strong> (Contrastive-Neural-Korean-Text-Generation) model, which solves the two issues mentioned above.
+Therefore, we release the <strong>CoNKT</strong> (Contrastive-Neural-Korean-Text-Generation) model, which solves the two issues mentioned above.
 
 ## Setups
 [![Python](https://img.shields.io/badge/python-3.8.5-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-385/)
