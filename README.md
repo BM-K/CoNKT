@@ -5,8 +5,8 @@ CoNT is a strong contrastive learning framework for neural text generation which
 <img src=https://github.com/BM-K/CoNKT/assets/55969260/c0613709-d797-48cf-9acb-77b5fcec8389>
 
 The aforementioned repository has the following issues:
-- 1. It does not support Korean models and BART language model.
-- 2. For Korean, it is not appropriate to use beam search decoding when sampling negative samples.
+- 1. It does not support Korean models and BART language model
+- 2. For Korean, it is not appropriate to use beam search decoding when sampling negative samples
 
 Therefore, we release the <strong>CoNKT</strong> (Contrastive-Neural-Korean-Text-Generation) model, which solves the two issues mentioned above.
 
