@@ -191,7 +191,7 @@ class ContrastiveNeuralTextGeneration(nn.Module):
         cand_mask = (cand_ids != self.pad_id).long()
 
         if self.args.alpha == 0.0:
-            cand_ids = cand_ids.view(input_ids.size(0), args.num_beams, -1)
+            cand_ids = cand_ids.view(input_ids.size(0), self.args.num_beams, -1)
             return cand_ids[:, 0, :]
         
         cand_len = torch.sum(cand_mask, dim=-1)
