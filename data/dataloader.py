@@ -61,13 +61,9 @@ class ModelDataLoader(Dataset):
         source, target =  line[0].strip(), line[1].strip()
         if self.args.model_type == 't5':
             source = self.t5_prompt + source
-        
-        if self.args.model_name_or_path == 'c1':
-            input_ids = self.add_padding_data(self.tokenizer.encode(source)[1:-1])
-            label_ids = self.tokenizer.encode(target)[1:-1] + [self.eos_token_idx]
-        else:
-            input_ids = self.add_padding_data(self.tokenizer.encode(source))
-            label_ids = self.tokenizer.encode(target) + [self.eos_token_idx]
+
+        input_ids = self.add_padding_data(self.tokenizer.encode(source))
+        label_ids = self.tokenizer.encode(target) + [self.eos_token_idx]
 
         if self.args.model_type == 't5':
             dec_input_ids = self.add_padding_data([self.pad_token_idx] + label_ids[:-1])
