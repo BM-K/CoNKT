@@ -72,9 +72,7 @@ class Arguments():
 
     def parse(self):
         args = self.parser.parse_args()
-    
         if args.local_rank == 0: self.print_args(args)
-
         return args
 
 class RankFilter(logging.Filter):
@@ -146,7 +144,7 @@ class Setting():
         logger = self.set_logger(args)
         
         self.set_seed(args)
-        
+
         self.init_for_distributed(args)
 
         return args, logger
