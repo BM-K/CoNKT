@@ -5,8 +5,6 @@ import logging
 import numpy as np
 import torch.distributed as dist
 
-import datetime
-
 from argparse import ArgumentParser
 
 class Arguments():
