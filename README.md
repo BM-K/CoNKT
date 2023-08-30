@@ -53,9 +53,8 @@ After restoring the model's tokenized output to the original text, Rouge perform
 
 - AI-Hub, News Summarization [[Dataset]](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
     - Training: 245,626
-    - Validation: 20,296
-    - Test: 9,931
-
+    - Validation: 27,685
+    - Test: 2,542
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
 | T5-small | 77M | 53.44 | 34.03 | 45.36 |
