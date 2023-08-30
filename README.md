@@ -55,6 +55,7 @@ After restoring the model's tokenized output to the original text, Rouge perform
     - Training: 245,626
     - Validation: 27,685
     - Test: 2,542
+      
 | | #Param | rouge-1 |rouge-2|rouge-l|
 |-------|--------:|--------:|--------:|--------:|
 | T5-small | 77M | 53.44 | 34.03 | 45.36 |
