@@ -3,7 +3,6 @@ import os
 import csv
 import torch
 import logging
-import torch.distributed as dist
 
 from rouge import Rouge
 from tensorboardX import SummaryWriter
